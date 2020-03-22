@@ -71,6 +71,8 @@ In order to import your data, you will need a fresh installation of [Vanilla](ht
 
 1. Place your Porter file (that the export created) in Vanilla's `uploads` folder.
 
+1. Edit your config.php and add the following line `$Configuration['Feature']['Import']['Enabled'] = true;` This will enable the Import link on the Dashboard > Settings page.
+
 1. In Vanilla, click **Import** in the Dashboard.
 
 1. Select the file you uploaded. Enter the email of the user from your legacy forum you want to be the superadmin of the new forum. Check "Use my current password". Leave the password box empty.
